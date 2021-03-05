@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CrashHandler</string>
+    <string name="purpose_of_this_app_catching_all_uncaught_exception">Purpose of this app catching all Uncaught Exception.</string>
+    <string name="error_date">Error Date</string>
+    <string name="error_info">Error Info</string>
+</resources>
