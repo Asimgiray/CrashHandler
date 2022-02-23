@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CrashHandler</string>
+    <string name="count_down">This app will crash in %1$d second</string>
+</resources>
