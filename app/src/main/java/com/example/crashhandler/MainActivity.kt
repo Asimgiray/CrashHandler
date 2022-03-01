@@ -17,13 +17,13 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        binding = DataBindingUtil.setContentView(this , R.layout.activity_main)
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_main)
 
         val context: Context = this
 
         Thread.setDefaultUncaughtExceptionHandler(CrashHandler(context))
 
-        val timer = object : CountDownTimer(5000 , 1000) {
+        val timer = object : CountDownTimer(5000, 1000) {
             override fun onTick(p0: Long) {
                 binding.txtCountDown.text = resources.getString(R.string.count_down, p0/1000)
             }

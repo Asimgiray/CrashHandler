@@ -52,12 +52,5 @@ class CrashHandler(context: Context) : Thread.UncaughtExceptionHandler {
         android.os.Process.killProcess(android.os.Process.myPid());
         exitProcess(2);
 
-
-
-
-        
-
     }
-
-
 }

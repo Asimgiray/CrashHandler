@@ -30,6 +30,5 @@ class CrashActivity : AppCompatActivity() {
         crashBinding.btnGoBack.setOnClickListener {
             this.finishAffinity()
         }
-
     }
 }
